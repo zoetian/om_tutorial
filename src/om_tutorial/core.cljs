@@ -1,7 +1,7 @@
 (ns om-tutorial.core
-	(:require	[goog.dom :as gdom]
-			  	[om.next :as om :refer-macros [defui]]
-			  	[om.dom :as dom]))
+	(:require [goog.dom :as gdom]
+		  [om.next :as om :refer-macros [defui]]
+		  [om.dom :as dom]))
 
 (defui HelloWorld
 	Object
