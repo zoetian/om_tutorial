@@ -1,0 +1,46 @@
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+[31mCompiling "resources/public/js/main.js" failed.
+[0mclojure.lang.ExceptionInfo: EOF while reading, starting at line 2 and column 3
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    clojure.tools.reader.reader_types$reader_error.doInvoke (reader_types.clj:331)
+    clojure.lang.RestFn.invoke (RestFn.java:439)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:199)
+    clojure.tools.reader$read_list.invoke (reader.clj:208)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:889)
+    clojure.tools.reader$read_delimited.invoke (reader.clj:195)
+    clojure.tools.reader$read_list.invoke (reader.clj:208)
+    clojure.tools.reader$read_STAR_.invoke (reader.clj:889)
+    clojure.tools.reader$read.invoke (reader.clj:938)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2112$fn__2113$fn__2114.invoke (analyzer.cljc:2626)
+    cljs.analyzer$forms_seq_STAR_$forms_seq___2112$fn__2113.invoke (analyzer.cljc:2619)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.RT.seq (RT.java:507)
+    clojure.core/seq (core.clj:137)
+    cljs.analyzer$parse_ns$fn__2128.invoke (analyzer.cljc:2702)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2682)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2673)
+    cljs.compiler$find_source.invoke (compiler.cljc:1389)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:56)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core$reduce1.invoke (core.clj:909)
+    clojure.core$set.invoke (core.clj:3960)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:731)
+    cljs.closure$build.invoke (closure.clj:1807)
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.036 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.36 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...
+Compiling src/om_tutorial/core.cljs
+Compiling target/figwheel_temp/dev/figwheel/connect.cljs
+notifying browser that file changed:  out/om_tutorial/core.js
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.239 seconds.[0m
